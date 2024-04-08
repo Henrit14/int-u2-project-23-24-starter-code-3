@@ -1,6 +1,51 @@
 /* The code below makes the background of the header black and the font color of the title white. Change this to match what you want for your website. */
-header {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+hr {
+    color: black;
+}
+iframe {
+    margin: auto;
+    border-radius: 3px;
+    display: flexbox;
+}
+nav {
+    display: flex;
+    position: sticky;
+    align-items: center;
     background-color: black;
+    width: 550px;
+    height: 80px;
+    
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+header {
     color: white;
-    padding: 128px 16px;
+    background-color: black;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+.h2 {
+    color: white;
+}
+p {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: auto;
+}
+a {
+    color: white;
+}
+footer {
+    font-family: sans-serif; 
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
 }
