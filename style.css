@@ -6,7 +6,7 @@ hr {
 iframe {
     margin: auto;
     border-radius: 3px;
-    display: flexbox;
+    display: block;
 }
 nav {
     display: flex;
