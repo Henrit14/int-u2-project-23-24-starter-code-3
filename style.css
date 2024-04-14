@@ -3,17 +3,23 @@
 hr {
     color: black;
 }
-iframe {
+video {
     border-radius: 3px;
+    display: block;
+    margin: 0 auto;
 }
 nav {
     display: flex;
     position: sticky;
     align-items: center;
-    background-color: black;
+    background-color: white;
     width: 550px;
     height: 80px;
+    text-align: center;
     
+}
+nav a {
+    color: black;
 }
 
 body {
@@ -30,13 +36,14 @@ header {
 h1 {
     text-align: center;
 }
-.h2 {
-    color: white;
+h2 {
+    color: black;
 }
 p {
     background-color: #ffffff;
     border-radius: 5px;
     margin: auto;
+    text-align: center;
 }
 a {
     color: white;
@@ -46,4 +53,8 @@ footer {
     background-color: white;
     width: 400px;
     border-radius: 5px;
+}
+.line {
+    border-left: 3px solid black;
+      height: 50px;
 }
