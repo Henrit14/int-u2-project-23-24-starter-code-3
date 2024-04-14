@@ -4,9 +4,7 @@ hr {
     color: black;
 }
 iframe {
-    margin: auto;
     border-radius: 3px;
-    display: block;
 }
 nav {
     display: flex;
