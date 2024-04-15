@@ -54,3 +54,15 @@ footer {
     width: 400px;
     border-radius: 5px;
 }
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 2s ease-in forwards;
+}
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
