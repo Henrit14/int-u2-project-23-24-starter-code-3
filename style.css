@@ -66,3 +66,6 @@ footer {
         opacity: 1;
     }
 }
+textarea {
+    width: 400px;
+}
