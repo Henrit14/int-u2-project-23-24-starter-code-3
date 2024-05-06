@@ -10,13 +10,16 @@ video {
 }
 nav {
     display: flex;
-    position: sticky;
+    position: absolute;
+    left: 30%;
+    transform: (-30%);
     align-items: center;
     background-color: white;
     width: 550px;
     height: 80px;
     text-align: center;
-    
+    border: 3px solid #1290afff;
+    border-radius: 30px;
 }
 nav a {
     color: black;
@@ -25,13 +28,6 @@ nav a {
 body {
     background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
-}
-header {
-    color: white;
-    background-color: black;
-    width: 300px;
-    margin: auto;
-    border-radius: 10px;
 }
 h1 {
     text-align: center;
@@ -68,4 +64,30 @@ footer {
 }
 textarea {
     width: 400px;
+}
+header:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+header:hover:after {
+    transform: scale(0);
+}
+.section {
+    display: flex;
+    border: 3px solid #1290afff;
+    height: 200px;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    text-align: center;
+}
+.section img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.section:hover {
+    transform: translateY(-10px);
 }
