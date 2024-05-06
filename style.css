@@ -90,8 +90,3 @@ header:hover:after {
 .section:hover {
     transform: translateY(-10px);
 }
-textarea {
-    left: 50%;
-    top: 90%;
-    transform: (-90%, -50%);
-}
